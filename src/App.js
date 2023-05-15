@@ -86,17 +86,7 @@ function Box2(props) {
 
 function App() {
   return (
-    <div style={{ width: "100vh", height: "1000px" }}>
-      {/* <Canvas camera={{ position: [0, 5, 10] }}> */}
-        {/* <Physics> */}
-          {/* <OrbitControls/>   */}
-          {/* <ambientLight /> */}
-          {/* <pointLight position={[10, 10, 10]} /> */}
-          {/* <Plane />
-          <Box position={[0 , 4 ,0]} />
-          <Box2 position={[0 , 2 ,0]} /> */}
-        {/* </Physics> */}
-      {/* // </Canvas> */}
+    <div style={{ width: "100vh" }}>
       <Home />
     </div>
   );
